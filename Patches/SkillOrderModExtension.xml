@@ -1,0 +1,131 @@
+<Patch>
+    <!-- Shooting -->
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/SkillDef[defName="Shooting"]</xpath>
+        <value>
+            <li Class="CharacterEditorSkillFix.SkillOrderExtension">
+                <order>0</order>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- Melee -->
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/SkillDef[defName="Melee"]</xpath>
+        <value>
+            <li Class="CharacterEditorSkillFix.SkillOrderExtension">
+                <order>1</order>
+            </li>
+        </value>
+    </Operation>
+	
+	<!-- Toughness-->
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/SkillDef[defName="Toughness"]</xpath>
+        <value>
+            <li Class="CharacterEditorSkillFix.SkillOrderExtension">
+                <order>2</order>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- Construction -->
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/SkillDef[defName="Construction"]</xpath>
+        <value>
+            <li Class="CharacterEditorSkillFix.SkillOrderExtension">
+                <order>3</order>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- Mining -->
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/SkillDef[defName="Mining"]</xpath>
+        <value>
+            <li Class="CharacterEditorSkillFix.SkillOrderExtension">
+                <order>4</order>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- Cooking -->
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/SkillDef[defName="Cooking"]</xpath>
+        <value>
+            <li Class="CharacterEditorSkillFix.SkillOrderExtension">
+                <order>5</order>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- Plants -->
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/SkillDef[defName="Plants"]</xpath>
+        <value>
+            <li Class="CharacterEditorSkillFix.SkillOrderExtension">
+                <order>6</order>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- Animals -->
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/SkillDef[defName="Animals"]</xpath>
+        <value>
+            <li Class="CharacterEditorSkillFix.SkillOrderExtension">
+                <order>7</order>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- Crafting -->
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/SkillDef[defName="Crafting"]</xpath>
+        <value>
+            <li Class="CharacterEditorSkillFix.SkillOrderExtension">
+                <order>8</order>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- Artistic -->
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/SkillDef[defName="Artistic"]</xpath>
+        <value>
+            <li Class="CharacterEditorSkillFix.SkillOrderExtension">
+                <order>9</order>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- Medicine -->
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/SkillDef[defName="Medicine"]</xpath>
+        <value>
+            <li Class="CharacterEditorSkillFix.SkillOrderExtension">
+                <order>10</order>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- Social -->
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/SkillDef[defName="Social"]</xpath>
+        <value>
+            <li Class="CharacterEditorSkillFix.SkillOrderExtension">
+                <order>11</order>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- Intellectual -->
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/SkillDef[defName="Intellectual"]</xpath>
+        <value>
+            <li Class="CharacterEditorSkillFix.SkillOrderExtension">
+                <order>12</order>
+            </li>
+        </value>
+    </Operation>
+</Patch>
